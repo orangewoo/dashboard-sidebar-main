@@ -1,5 +1,5 @@
 import React from 'react'
-
+ 
 export const Student = ({name,dispatch,id,isHere}) => {
   return (
     <div>

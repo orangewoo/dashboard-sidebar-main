@@ -44,7 +44,7 @@ const reducer = (state, action) => {
                     }
                     return student;                    
                 }),
-            }
+            } 
         default:
             return state;
     }

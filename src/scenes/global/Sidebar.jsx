@@ -156,7 +156,6 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-
             <Item
               title="Manage Team"
               to="/team"

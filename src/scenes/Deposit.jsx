@@ -32,7 +32,7 @@ const Deposit = () => {
 
     const [number, setNumber]  = useState(0);
     const [money, dispatch]  = useReducer(reducer, 0);
- 
+  
     return (
     <div>
         <h2>useReducer 은행</h2>
