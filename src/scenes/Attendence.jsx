@@ -36,7 +36,7 @@ const reducer = (state, action) => {
                 students: state.students.filter( student => student.id !== action.payload.id),
             }
         case ACTION_TYPE.mark:
-            return {
+            return { 
                 count:state.count ,
                 students: state.students.map( student => {
                     if(student.id === action.payload.id){

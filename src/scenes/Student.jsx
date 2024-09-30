@@ -9,7 +9,7 @@ export const Student = ({name,dispatch,id,isHere}) => {
         }}
         onClick={() =>{
           dispatch({type:'mark', payload:{id}})
-        }}
+        }} 
         >{name}</span>
         <button onClick={() =>{
           dispatch({type:"del", payload:{id}});
