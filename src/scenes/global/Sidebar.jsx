@@ -141,6 +141,23 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             
+
+            <Item
+              title="useReducer"
+              to="/deposit"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+             <Item
+              title="useReducer2"
+              to="/attendence"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+
             <Item
               title="Manage Team"
               to="/team"
