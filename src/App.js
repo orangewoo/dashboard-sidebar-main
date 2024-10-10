@@ -21,7 +21,7 @@ import Attendence from "./scenes/Attendence";
 import UseMemoSample from "./scenes/UseMemo_Sample";
 import UseMemoSample1 from "./scenes/UseMemo_Sample1";
 import ForwardRef from "./scenes/ForwardRef";
-
+ 
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);

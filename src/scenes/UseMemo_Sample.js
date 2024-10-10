@@ -8,7 +8,7 @@ const UseMemo_Sample = () => {
   const incrementP = () =>{
     setParentAge(parentAge +1)
   }
-
+ 
   const incrementC = () =>{
     setChildAge(childAge + 1)
   }

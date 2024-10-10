@@ -6,5 +6,4 @@ const MyInput = (props, ref) => {
         )
       }
  
-
 export default forwardRef(MyInput);

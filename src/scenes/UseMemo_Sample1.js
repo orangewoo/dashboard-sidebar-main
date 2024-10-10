@@ -14,7 +14,6 @@ const UseMemo_Sample1 = () => {
         lname:"홍"
       };
     }, []);
-  
 
   console.log("부모컴포넌트 렌더링!");
 
