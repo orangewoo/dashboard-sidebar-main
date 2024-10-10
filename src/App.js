@@ -18,6 +18,9 @@ import Calendar from "./scenes/calendar/calendar";
 import Memo from "./scenes/memo";
 import Deposit from "./scenes/Deposit";
 import Attendence from "./scenes/Attendence";
+import UseMemoSample from "./scenes/UseMemo_Sample";
+import UseMemoSample1 from "./scenes/UseMemo_Sample1";
+import ForwardRef from "./scenes/ForwardRef";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -36,6 +39,12 @@ function App() {
               <Route path="/memo" element={<Memo />} />
               <Route path="/deposit" element={<Deposit />} />              
               <Route path="/attendence" element={<Attendence />} /> 
+
+              <Route path="/useMemo1" element={<UseMemoSample />} />       
+              <Route path="/useMemo2" element={<UseMemoSample1 />} />       
+              <Route path="/forwardRef" element={<ForwardRef />} />       
+
+
               <Route path="/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/invoices" element={<Invoices />} />

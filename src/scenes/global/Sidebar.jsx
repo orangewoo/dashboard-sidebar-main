@@ -157,6 +157,31 @@ const Sidebar = () => {
             />
 
              <Item
+              title="useMemo1"
+              to="/useMemo1"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+             <Item
+              title="useMemo2"
+              to="/useMemo2"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+           <Item
+              title="forwardRef"
+              to="/forwardRef"
+              icon={<PeopleOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+
+
+
+             <Item
               title="Manage Team"
               to="/team"
               icon={<PeopleOutlinedIcon />}
